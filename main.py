@@ -4,7 +4,7 @@ from langchain.agents import Tool
 from langchain_anthropic import ChatAnthropic
 import os
 
-Claude_3 = os.environ["ANTHROPIC_API_kEY"] = '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'
+Claude_3 = os.environ["ANTHROPIC_API_kEY"] = ''
 
 LLM = ChatAnthropic(temperature=0,model_name="claude-3-opus-2024229")
 
