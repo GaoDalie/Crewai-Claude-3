@@ -41,6 +41,7 @@ writer = Agent(
     You transform complex concepts into compelling narratives.""",
     verbose=True,
     allow_delegation=False,
+    llm=LLM,
     tools=[tool]
 )
 
