@@ -1,4 +1,3 @@
-langchain
 crewai==0.5
 langchain_anthropic
 duckduckgo-search
